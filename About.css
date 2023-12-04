@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+html, body{
+    width: 100%;
+    height: 100%;
+}
+.about-sec1{
+    width: 100%;
+    height: 120vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.about-div1{
+    width: 80%;
+    height: 90%;
+    background-color: rgba(245, 222, 179, 0.904);
+    box-shadow: 10px 10px 60px rgba(0, 0, 0, 0.966) , inset -10px -10px 60px rgba(0, 0, 0, 0.771);
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+.about-div1 h1{
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.966) , inset -10px -10px 30px rgba(0, 0, 0, 0.771);
+    background-color: rgb(110, 11, 11);
+    color: white;
+    width: 30%;
+    height: 50px;
+    font-size: 2.5vw;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.about-div2{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    width: 80%;
+    height: 80%;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.966) , inset -10px -10px 30px rgba(0, 0, 0, 0.771);
+    background-color: rgb(110, 11, 11);
+    color: white;
+    border-radius: 25px;
+}
+.divlogo{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 2px solid wheat;
+}
+.divlogo img{
+    width: 25%;
+    height: 90%;
+    object-fit: fill;
+    border-radius: 50%;
+    transition: ease-in-out 0.4s;
+}
+.divlogo img:hover{
+    transform: scale(1.1);
+}
+.divdata {
+    width: 100%;
+    height: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 30px;
+}
+.divdata h2{
+    font-size: 2.5vw;
+    margin: 20px 0px 20px 0px;
+    font-weight: 800;
+    color: wheat;
+}
+.divdata p{
+    font-size: 1em;
+    margin: 20px;
+    font-weight: 200;
+}
+
+
+
+@media only screen and (max-width: 1000px) and (min-width: 700px){
+    .about-div1{
+        width: 95%;
+        height: 90%;
+        background-color: rgba(245, 222, 179, 0.904);
+        box-shadow: 10px 10px 60px rgba(0, 0, 0, 0.966) , inset -10px -10px 60px rgba(0, 0, 0, 0.771);
+        border-radius: 25px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: column;
+    }
+    .divdata p{
+        font-size: 0.9em;
+        margin: 20px;
+        font-weight: 200;
+    }
+}
+
+@media only screen and (max-width: 699px) and (min-width: 350px){
+    .about-div1{
+        width: 95%;
+        height: 90%;
+        background-color: rgba(245, 222, 179, 0.904);
+        box-shadow: 10px 10px 60px rgba(0, 0, 0, 0.966) , inset -10px -10px 60px rgba(0, 0, 0, 0.771);
+        border-radius: 25px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: column;
+    }
+    .about-div2{
+        width: 90%;
+        height: 80%;
+        box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.966) , inset -10px -10px 30px rgba(0, 0, 0, 0.771);
+        background-color: rgb(110, 11, 11);
+        color: white;
+        border-radius: 25px;
+    }
+    .divdata h2{
+        font-size: 4.5vw;
+        margin: 20px 0px 20px 0px;
+        font-weight: 800;
+        color: wheat;
+    }
+    .divdata p{
+        font-size: 0.65em;
+        margin: 20px;
+        font-weight: 200;
+    }
+
+    
+}
